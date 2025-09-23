@@ -6,14 +6,14 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/stefanistkuhl/gns3-api-util/releases/download/v1.1.4/gns3util-windows-amd64.zip",
-      "hash": "44163572087607484dcdacbdaaa7e273a8fb98da44467e7f34292937e2de3589",
+      "hash": "sha256:44163572087607484dcdacbdaaa7e273a8fb98da44467e7f34292937e2de3589"
     },
     "arm64": {
       "url": "https://github.com/stefanistkuhl/gns3-api-util/releases/download/v1.1.4/gns3util-windows-arm64.zip",
-      "hash": "465e27043cefb8efdf46f3b7e548c82e2061d1f6320c7de42faf1003de533e43",
-    },
+      "hash": "sha256:465e27043cefb8efdf46f3b7e548c82e2061d1f6320c7de42faf1003de533e43"
+    }
   },
-  "bin": "gns3util/gns3util.exe",
+  "bin": "gns3util.exe",
   "checkver": {
     "url": "https://github.com/stefanistkuhl/gns3-api-util/releases",
     "regex": "tag/v([\\d.]+)"
