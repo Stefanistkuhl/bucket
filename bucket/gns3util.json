@@ -1,0 +1,33 @@
+{
+  "version": "1.1.4",
+  "description": "GNS3 API utility for managing GNS3v3 servers",
+  "homepage": "https://github.com/stefanistkuhl/gns3-api-util",
+  "license": "GPL-3.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/stefanistkuhl/gns3-api-util/releases/download/v1.1.4/gns3util-windows-amd64.zip",
+      "hash": "sha256:",
+      "extract_dir": "gns3util"
+    },
+    "arm64": {
+      "url": "https://github.com/stefanistkuhl/gns3-api-util/releases/download/v1.1.4/gns3util-windows-arm64.zip",
+      "hash": "sha256:",
+      "extract_dir": "gns3util"
+    }
+  },
+  "bin": "gns3util/gns3util.exe",
+  "checkver": {
+    "url": "https://github.com/stefanistkuhl/gns3-api-util/releases",
+    "regex": "tag/v([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/stefanistkuhl/gns3-api-util/releases/download/v$version/gns3util-windows-amd64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/stefanistkuhl/gns3-api-util/releases/download/v$version/gns3util-windows-arm64.zip"
+      }
+    }
+  }
+}
