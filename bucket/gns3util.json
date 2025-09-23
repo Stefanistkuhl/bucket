@@ -11,7 +11,7 @@
     "arm64": {
       "url": "https://github.com/stefanistkuhl/gns3-api-util/releases/download/v1.1.4/gns3util-windows-arm64.zip",
       "hash": "465e27043cefb8efdf46f3b7e548c82e2061d1f6320c7de42faf1003de533e43",
-    }
+    },
   },
   "bin": "gns3util/gns3util.exe",
   "checkver": {
